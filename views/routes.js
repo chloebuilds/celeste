@@ -1,8 +1,8 @@
 import express from 'express'
 
-import { getAllZodiacs, addZodiac, getSingleZodiac, updateZodiac, deleteZodiac } from '../controllers/zodiacs.js'
-import { registerUser, loginUser } from '../controllers/auth.js'
-import { secureRoute } from './secureRoute.js'
+import { getAllZodiacs, addZodiac, getSingleZodiac, updateZodiac, deleteZodiac } from '../controllers/zodiacController.js'
+import { registerUser, loginUser } from '../controllers/userController.js'
+import { secureRoute } from '../config/secureRoute.js'
 // import { secureRoute } from './secureRoute'
 
 // CONTROLLERS

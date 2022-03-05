@@ -1,5 +1,41 @@
 export default [
   {
+    name: 'Aries', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Taurus', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Gemini', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
     name: 'Cancer', 
     dates: 'June 21st - July 22nd',
     symbol: 'The Crab',
@@ -22,5 +58,89 @@ export default [
     keyTraits: 'Generous, Ambitious, Passionate, Stubborn, Arrogant',
     house:  '5th',
     compatibility: ['Aries', 'Gemini', 'Libra']
-  }
+  },
+  {
+    name: 'Virgo', 
+    dates: '',
+    symbol: 'The Virgin',
+    element: 'Earth',
+    quality: '',
+    planet: 'Venus',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['Aries', 'Gemini', 'Libra']
+  },
+  {
+    name: 'Libra', 
+    dates: '',
+    symbol: 'The Scales',
+    element: 'Air',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Scorpio', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Sagitarius', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Capricorn', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Aquarius', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
+  {
+    name: 'Pisces', 
+    dates: '',
+    symbol: '',
+    element: '',
+    quality: '',
+    planet: '',
+    keyPhrase: '',
+    keyTraits: '',
+    house:  '',
+    compatibility: ['']
+  },
 ]

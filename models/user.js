@@ -3,14 +3,15 @@ import uniqueValidator from 'mongoose-unique-validator'
 
 // SCHEMA
 
-// We're onlu defining the first three, not passwordConfirmation. 
+// We're only defining the first three, not passwordConfirmation. 
 // Because this would be duplicate info, that we only need for validation
 const { Schema } = mongoose
 const userSchema = new Schema({
   username: { type: String, required: true, unique: true, maxlength: 30 },
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
-
+  role: { type: String, enum: ['admin', 'user'], default: 'user'}, //enum means only these values are allowed to populate the role
+  registeredAt: {type: Date, default: Date.now}
 })
 
 // creating our passwordConfirmation virtual field
